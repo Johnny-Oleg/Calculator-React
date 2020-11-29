@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HistoryItem = ({ transaction, delTransaction}) => {
+const HistoryItem = ({ transaction, delTransaction }) => {
     const { description, amount, add, id } = transaction;
 
     return (
